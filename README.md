@@ -3,6 +3,7 @@
 [![NPM](https://nodei.co/npm/node-deep-email-validator.png)](https://nodei.co/npm/node-deep-email-validator/)
 
 This is based on [deep-email-validator](https://nodei.co/npm/deep-email-validator/)
+
 Validates email addresses based on regex, common typos, disposable email blacklists and DNS records.
 
 - Validates email looks like an email i.e. contains an "@" and a "." to the right of it using RegEx.
