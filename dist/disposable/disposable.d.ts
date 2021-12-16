@@ -1,2 +1,2 @@
 declare var domains: Array<String>;
-declare function disposable(email: string): boolean;
+declare function disposable(domain: string): boolean;

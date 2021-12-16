@@ -1,8 +1,6 @@
 "use strict";
 var domains = require('disposable-email-domains');
-function disposable(email) {
-    //get the domain from the email
-    var domain = email.split('@')[1];
+function disposable(domain) {
     //check if the domain is in the disposable email list
     return !domains.includes(domain);
 }
