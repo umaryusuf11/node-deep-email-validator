@@ -1,0 +1,17 @@
+{
+  "name": "node-deep-email-validator",
+  "version": "0.0.1",
+  "description": "Validates emails based on regex, common typos, disposable email blacklists, DNS records and SMTP server response. Based on deep-email-validator.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "nodemon dist/test.js"
+  },
+  "keywords": [
+    "email-validation"
+  ],
+  "author": "Umar Yusuf",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.0"
+  }
+}
