@@ -27,7 +27,10 @@ Use like so
 ```typescript
 const validateEmail = require('node-deep-email-validator');
 async function main(){
-  const valid = await validate('example@yourdomain.com');
-  // YOUR CODE HERE
+  const valid = await validate('example@yourdomain.com'); //{ result: Boolean, failReason: String || null }
+  if(valid.result){
+    //Email is Valid
+    //YOUR CODE HERE
+  }
 }
 ```
