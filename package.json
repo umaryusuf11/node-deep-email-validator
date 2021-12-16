@@ -1,6 +1,6 @@
 {
   "name": "node-deep-email-validator",
-  "version": "0.0.11",
+  "version": "0.0.2",
   "description": "Validates emails based on regex, common typos, disposable email blacklists, DNS records and SMTP server response. Based on deep-email-validator.",
   "repository": {
     "type": "git",
