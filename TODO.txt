@@ -1,0 +1,4 @@
+- Promisify as many functions as possible.
+- Change the return type from Promise<Boolean> to a Promise that resolves to a JSON object like {result, failReason}.
+    - The result will be true if the operation succeeded, false otherwise.
+    - The failReason will be a string that describes the reason for failure. or be null if the operation succeeded.
