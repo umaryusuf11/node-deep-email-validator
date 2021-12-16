@@ -8,7 +8,7 @@
   },
   "main": "dist/index.js",
   "scripts": {
-    "test": "nodemon dist/test.js"
+    "test": "nodemon test/test.js"
   },
   "keywords": [
     "email-validation"
